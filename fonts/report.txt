@@ -1,0 +1,1124 @@
+77 checks on <Section: Google Fonts>
+14 checks on <Section: fontbakery.specifications.general>
+3 checks on <Section: fontbakery.specifications.cmap>
+3 checks on <Section: fontbakery.specifications.head>
+6 checks on <Section: fontbakery.specifications.os2>
+2 checks on <Section: fontbakery.specifications.post>
+8 checks on <Section: fontbakery.specifications.name>
+3 checks on <Section: fontbakery.specifications.hhea>
+1 checks on <Section: fontbakery.specifications.dsig>
+1 checks on <Section: fontbakery.specifications.hmtx>
+2 checks on <Section: fontbakery.specifications.gpos>
+1 checks on <Section: fontbakery.specifications.gdef>
+1 checks on <Section: fontbakery.specifications.kern>
+2 checks on <Section: fontbakery.specifications.glyf>
+1 checks on <Section: fontbakery.specifications.prep>
+6 checks on <Section: fontbakery.specifications.fvar>
+1 checks on <Section: fontbakery.specifications.loca>
+Start ... running 1549 individual check executions.
+>> [1;36;40mcom.google.fonts/check/028[0m
+   [1;35;40mCheck font has a license.[0m
+ * [1;31;40mFAIL[0m: No license file was found. Please add an OFL.txt or a LICENSE.txt file. If you are running fontbakery on a Google Fonts upstream repo, which is fine, just make sure there is a temporary license file in the same folder. [code: none]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/157[0m with ((u'font[0]', 'RedHatDisplay-Black.ttf'),)
+   [1;35;40mCheck name table: FONT_FAMILY_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FONT_FAMILY_NAME(1):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Display' but got 'Red Hat Display Black'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/158[0m with ((u'font[0]', 'RedHatDisplay-Black.ttf'),)
+   [1;35;40mCheck name table: FONT_SUBFAMILY_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FONT_SUBFAMILY_NAME(2):MACINTOSH(1)] on the 'name' table: Expected 'Black' but got 'Regular'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/129[0m with ((u'font[0]', 'RedHatDisplay-Black.ttf'),)
+   [1;35;40mChecking OS/2 fsSelection value.[0m
+ * [1;31;40mFAIL[0m: OS/2 fsSelection REGULAR bit should be set.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/159[0m with ((u'font[1]', 'RedHatDisplay-BlackItalic.ttf'),)
+   [1;35;40mCheck name table: FULL_FONT_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Display Black Italic' but got 'Red Hat Display Black It'.
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Red Hat Display Black Italic' but got 'Red Hat Display Black It'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/157[0m with ((u'font[1]', 'RedHatDisplay-BlackItalic.ttf'),)
+   [1;35;40mCheck name table: FONT_FAMILY_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FONT_FAMILY_NAME(1):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Display' but got 'Red Hat Display Black'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/158[0m with ((u'font[1]', 'RedHatDisplay-BlackItalic.ttf'),)
+   [1;35;40mCheck name table: FONT_SUBFAMILY_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FONT_SUBFAMILY_NAME(2):MACINTOSH(1)] on the 'name' table: Expected 'Black Italic' but got 'Italic'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/159[0m with ((u'font[3]', 'RedHatDisplay-BoldItalic.ttf'),)
+   [1;35;40mCheck name table: FULL_FONT_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Display Bold Italic' but got 'Red Hat Display Bold It'.
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Red Hat Display Bold Italic' but got 'Red Hat Display Bold It'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/159[0m with ((u'font[4]', 'RedHatDisplay-Italic.ttf'),)
+   [1;35;40mCheck name table: FULL_FONT_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Display Italic' but got 'Red Hat Display It'.
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Red Hat Display Italic' but got 'Red Hat Display It'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/157[0m with ((u'font[5]', 'RedHatDisplay-Medium.ttf'),)
+   [1;35;40mCheck name table: FONT_FAMILY_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FONT_FAMILY_NAME(1):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Display' but got 'Red Hat Display Medium'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/158[0m with ((u'font[5]', 'RedHatDisplay-Medium.ttf'),)
+   [1;35;40mCheck name table: FONT_SUBFAMILY_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FONT_SUBFAMILY_NAME(2):MACINTOSH(1)] on the 'name' table: Expected 'Medium' but got 'Regular'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/129[0m with ((u'font[5]', 'RedHatDisplay-Medium.ttf'),)
+   [1;35;40mChecking OS/2 fsSelection value.[0m
+ * [1;31;40mFAIL[0m: OS/2 fsSelection REGULAR bit should be set.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/159[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mCheck name table: FULL_FONT_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Display Medium Italic' but got 'Red Hat Display Medium It'.
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Red Hat Display Medium Italic' but got 'Red Hat Display Medium It'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/157[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mCheck name table: FONT_FAMILY_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FONT_FAMILY_NAME(1):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Display' but got 'Red Hat Display Medium'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/158[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mCheck name table: FONT_SUBFAMILY_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FONT_SUBFAMILY_NAME(2):MACINTOSH(1)] on the 'name' table: Expected 'Medium Italic' but got 'Italic'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/159[0m with ((u'font[7]', 'RedHatDisplay-Regular.ttf'),)
+   [1;35;40mCheck name table: FULL_FONT_NAME entries.[0m
+ * [1;33;40mWARN[0m: Entry [FULL_FONT_NAME(4):MACINTOSH(1)] on the 'name' table: Got 'Red Hat Display' which lacks 'Regular', but it is probably OK in this case.
+ * [1;33;40mWARN[0m: Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Got 'Red Hat Display' which lacks 'Regular', but it is probably OK in this case.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/159[0m with ((u'font[9]', 'RedHatText-BoldItalic.ttf'),)
+   [1;35;40mCheck name table: FULL_FONT_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Text Bold Italic' but got 'Red Hat Text Bold It'.
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Red Hat Text Bold Italic' but got 'Red Hat Text Bold It'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/159[0m with ((u'font[10]', 'RedHatText-Italic.ttf'),)
+   [1;35;40mCheck name table: FULL_FONT_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Text Italic' but got 'Red Hat Text It'.
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Red Hat Text Italic' but got 'Red Hat Text It'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/157[0m with ((u'font[11]', 'RedHatText-Medium.ttf'),)
+   [1;35;40mCheck name table: FONT_FAMILY_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FONT_FAMILY_NAME(1):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Text' but got 'Red Hat Text Medium'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/158[0m with ((u'font[11]', 'RedHatText-Medium.ttf'),)
+   [1;35;40mCheck name table: FONT_SUBFAMILY_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FONT_SUBFAMILY_NAME(2):MACINTOSH(1)] on the 'name' table: Expected 'Medium' but got 'Regular'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/129[0m with ((u'font[11]', 'RedHatText-Medium.ttf'),)
+   [1;35;40mChecking OS/2 fsSelection value.[0m
+ * [1;31;40mFAIL[0m: OS/2 fsSelection REGULAR bit should be set.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/159[0m with ((u'font[12]', 'RedHatText-MediumItalic.ttf'),)
+   [1;35;40mCheck name table: FULL_FONT_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Text Medium Italic' but got 'Red Hat Text Medium It'.
+ * [1;31;40mFAIL[0m: Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Red Hat Text Medium Italic' but got 'Red Hat Text Medium It'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/157[0m with ((u'font[12]', 'RedHatText-MediumItalic.ttf'),)
+   [1;35;40mCheck name table: FONT_FAMILY_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FONT_FAMILY_NAME(1):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Text' but got 'Red Hat Text Medium'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/158[0m with ((u'font[12]', 'RedHatText-MediumItalic.ttf'),)
+   [1;35;40mCheck name table: FONT_SUBFAMILY_NAME entries.[0m
+ * [1;31;40mFAIL[0m: Entry [FONT_SUBFAMILY_NAME(2):MACINTOSH(1)] on the 'name' table: Expected 'Medium Italic' but got 'Italic'.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/159[0m with ((u'font[13]', 'RedHatText-Regular.ttf'),)
+   [1;35;40mCheck name table: FULL_FONT_NAME entries.[0m
+ * [1;33;40mWARN[0m: Entry [FULL_FONT_NAME(4):MACINTOSH(1)] on the 'name' table: Got 'Red Hat Text' which lacks 'Regular', but it is probably OK in this case.
+ * [1;33;40mWARN[0m: Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Got 'Red Hat Text' which lacks 'Regular', but it is probably OK in this case.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[0]', 'RedHatDisplay-Black.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[0]', 'RedHatDisplay-Black.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[0]', 'RedHatDisplay-Black.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[0]', 'RedHatDisplay-Black.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[1]', 'RedHatDisplay-BlackItalic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[1]', 'RedHatDisplay-BlackItalic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[1]', 'RedHatDisplay-BlackItalic.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[1]', 'RedHatDisplay-BlackItalic.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[2]', 'RedHatDisplay-Bold.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[2]', 'RedHatDisplay-Bold.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[2]', 'RedHatDisplay-Bold.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[2]', 'RedHatDisplay-Bold.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[3]', 'RedHatDisplay-BoldItalic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[3]', 'RedHatDisplay-BoldItalic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[3]', 'RedHatDisplay-BoldItalic.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[3]', 'RedHatDisplay-BoldItalic.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[4]', 'RedHatDisplay-Italic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[4]', 'RedHatDisplay-Italic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[4]', 'RedHatDisplay-Italic.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[4]', 'RedHatDisplay-Italic.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[5]', 'RedHatDisplay-Medium.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[5]', 'RedHatDisplay-Medium.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[5]', 'RedHatDisplay-Medium.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[5]', 'RedHatDisplay-Medium.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[7]', 'RedHatDisplay-Regular.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[7]', 'RedHatDisplay-Regular.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[7]', 'RedHatDisplay-Regular.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[7]', 'RedHatDisplay-Regular.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[8]', 'RedHatText-Bold.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[8]', 'RedHatText-Bold.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[8]', 'RedHatText-Bold.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[8]', 'RedHatText-Bold.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[9]', 'RedHatText-BoldItalic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[9]', 'RedHatText-BoldItalic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[9]', 'RedHatText-BoldItalic.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[9]', 'RedHatText-BoldItalic.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[10]', 'RedHatText-Italic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[10]', 'RedHatText-Italic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[10]', 'RedHatText-Italic.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[10]', 'RedHatText-Italic.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[11]', 'RedHatText-Medium.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[11]', 'RedHatText-Medium.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[11]', 'RedHatText-Medium.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[11]', 'RedHatText-Medium.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[12]', 'RedHatText-MediumItalic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[12]', 'RedHatText-MediumItalic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[12]', 'RedHatText-MediumItalic.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[12]', 'RedHatText-MediumItalic.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/037[0m with ((u'font[13]', 'RedHatText-Regular.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+ * [1;37;41mERROR[0m: Failed with OSError: [Errno 2] No such file or directory
+           File "/usr/local/lib/python2.7/site-packages/fontbakery/checkrunner.py", line 347, in _exec_check_generator
+             for sub_result in gen:
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/036[0m with ((u'font[13]', 'RedHatText-Regular.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/check/039[0m with ((u'font[13]', 'RedHatText-Regular.ttf'),)
+   [1;35;40mFontForge checks.[0m
+ * [1;31;40mFAIL[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/058[0m with ((u'font[13]', 'RedHatText-Regular.ttf'),)
+   [1;35;40mGlyph names are all valid?[0m
+ * [1;31;40mFAIL[0m: The following glyph names do not comply with naming conventions: ['.ttfautohint'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[0]', 'RedHatDisplay-Black.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[1]', 'RedHatDisplay-BlackItalic.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[2]', 'RedHatDisplay-Bold.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[3]', 'RedHatDisplay-BoldItalic.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[4]', 'RedHatDisplay-Italic.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[5]', 'RedHatDisplay-Medium.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[7]', 'RedHatDisplay-Regular.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[8]', 'RedHatText-Bold.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[9]', 'RedHatText-BoldItalic.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[10]', 'RedHatText-Italic.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[11]', 'RedHatText-Medium.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[12]', 'RedHatText-MediumItalic.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/044[0m with ((u'font[13]', 'RedHatText-Regular.ttf'),)
+   [1;35;40mChecking font version fields (head and name table).[0m
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 1, encoding 0, is ('1', u'003') [code: mismatch]
+ * [1;31;40mFAIL[0m: head version is ('1', u'00299'), name version string for platform 3, encoding 1, is ('1', u'003') [code: mismatch]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/034[0m with ((u'font[0]', 'RedHatDisplay-Black.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;33;40mWARN[0m: OS/2 xAvgCharWidth is 579 but should be 581 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font. These are similar values, which may be a symptom of the slightly different calculation of the xAvgCharWidth value in font editors. There's further discussion on this at https://github.com/googlefonts/fontbakery/issues/1622
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/034[0m with ((u'font[3]', 'RedHatDisplay-BoldItalic.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;33;40mWARN[0m: OS/2 xAvgCharWidth is 556 but should be 558 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font. These are similar values, which may be a symptom of the slightly different calculation of the xAvgCharWidth value in font editors. There's further discussion on this at https://github.com/googlefonts/fontbakery/issues/1622
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/034[0m with ((u'font[5]', 'RedHatDisplay-Medium.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;33;40mWARN[0m: OS/2 xAvgCharWidth is 545 but should be 547 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font. These are similar values, which may be a symptom of the slightly different calculation of the xAvgCharWidth value in font editors. There's further discussion on this at https://github.com/googlefonts/fontbakery/issues/1622
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/034[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;33;40mWARN[0m: OS/2 xAvgCharWidth is 536 but should be 538 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font. These are similar values, which may be a symptom of the slightly different calculation of the xAvgCharWidth value in font editors. There's further discussion on this at https://github.com/googlefonts/fontbakery/issues/1622
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/034[0m with ((u'font[10]', 'RedHatText-Italic.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;33;40mWARN[0m: OS/2 xAvgCharWidth is 525 but should be 527 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font. These are similar values, which may be a symptom of the slightly different calculation of the xAvgCharWidth value in font editors. There's further discussion on this at https://github.com/googlefonts/fontbakery/issues/1622
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/034[0m with ((u'font[11]', 'RedHatText-Medium.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;33;40mWARN[0m: OS/2 xAvgCharWidth is 557 but should be 559 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font. These are similar values, which may be a symptom of the slightly different calculation of the xAvgCharWidth value in font editors. There's further discussion on this at https://github.com/googlefonts/fontbakery/issues/1622
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/008[0m
+   [1;35;40mFonts have consistent underline thickness?[0m
+ * [1;31;40mFAIL[0m: Thickness of the underline is not the same accross this family. In order to fix this, please make sure that the underlineThickness value is the same in the 'post' table of all of this family font files.
+Detected underlineThickness values are:
+	RedHatText-Bold.ttf: 100
+	RedHatDisplay-Black.ttf: 50
+	RedHatText-MediumItalic.ttf: 100
+	RedHatDisplay-MediumItalic.ttf: 50
+	RedHatDisplay-BlackItalic.ttf: 50
+	RedHatDisplay-BoldItalic.ttf: 50
+	RedHatText-BoldItalic.ttf: 100
+	RedHatDisplay-Regular.ttf: 50
+	RedHatDisplay-Medium.ttf: 50
+	RedHatDisplay-Italic.ttf: 50
+	RedHatText-Regular.ttf: 100
+	RedHatText-Medium.ttf: 100
+	RedHatDisplay-Bold.ttf: 50
+	RedHatText-Italic.ttf: 100
+
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/163[0m with ((u'font[0]', 'RedHatDisplay-Black.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Red Hat Display Black' / SUBFAMILY_NAME = 'Regular'
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Red Hat Display Black' / SUBFAMILY_NAME = 'Regular'
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[0]', 'RedHatDisplay-Black.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/163[0m with ((u'font[1]', 'RedHatDisplay-BlackItalic.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Red Hat Display Black' / SUBFAMILY_NAME = 'Italic'
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Red Hat Display Black' / SUBFAMILY_NAME = 'Italic'
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[1]', 'RedHatDisplay-BlackItalic.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[2]', 'RedHatDisplay-Bold.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/163[0m with ((u'font[3]', 'RedHatDisplay-BoldItalic.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Red Hat Display' / SUBFAMILY_NAME = 'Bold Italic'
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Red Hat Display' / SUBFAMILY_NAME = 'Bold Italic'
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[3]', 'RedHatDisplay-BoldItalic.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/163[0m with ((u'font[4]', 'RedHatDisplay-Italic.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Red Hat Display' / SUBFAMILY_NAME = 'Italic'
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Red Hat Display' / SUBFAMILY_NAME = 'Italic'
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[4]', 'RedHatDisplay-Italic.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/163[0m with ((u'font[5]', 'RedHatDisplay-Medium.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Red Hat Display Medium' / SUBFAMILY_NAME = 'Regular'
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Red Hat Display Medium' / SUBFAMILY_NAME = 'Regular'
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[5]', 'RedHatDisplay-Medium.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/163[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Red Hat Display Medium' / SUBFAMILY_NAME = 'Italic'
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Red Hat Display Medium' / SUBFAMILY_NAME = 'Italic'
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/163[0m with ((u'font[7]', 'RedHatDisplay-Regular.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Red Hat Display' / SUBFAMILY_NAME = 'Regular'
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Red Hat Display' / SUBFAMILY_NAME = 'Regular'
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[7]', 'RedHatDisplay-Regular.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[8]', 'RedHatText-Bold.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/163[0m with ((u'font[9]', 'RedHatText-BoldItalic.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Red Hat Text' / SUBFAMILY_NAME = 'Bold Italic'
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Red Hat Text' / SUBFAMILY_NAME = 'Bold Italic'
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[9]', 'RedHatText-BoldItalic.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[10]', 'RedHatText-Italic.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/163[0m with ((u'font[11]', 'RedHatText-Medium.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Red Hat Text Medium' / SUBFAMILY_NAME = 'Regular'
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Red Hat Text Medium' / SUBFAMILY_NAME = 'Regular'
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[11]', 'RedHatText-Medium.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/163[0m with ((u'font[12]', 'RedHatText-MediumItalic.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Red Hat Text Medium' / SUBFAMILY_NAME = 'Italic'
+ * [1;33;40mWARN[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Red Hat Text Medium' / SUBFAMILY_NAME = 'Italic'
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[12]', 'RedHatText-MediumItalic.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/032[0m with ((u'font[13]', 'RedHatText-Regular.ttf'),)
+   [1;35;40mDescription strings in the name table must not exceed 100 characters.[0m
+ * [1;31;40mFAIL[0m: Namerecords with ID=10 (NAMEID_DESCRIPTION) are longer than 100 characters and should be removed.
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[0]', 'RedHatDisplay-Black.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[1]', 'RedHatDisplay-BlackItalic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[2]', 'RedHatDisplay-Bold.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[3]', 'RedHatDisplay-BoldItalic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[4]', 'RedHatDisplay-Italic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[5]', 'RedHatDisplay-Medium.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[7]', 'RedHatDisplay-Regular.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[8]', 'RedHatText-Bold.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[9]', 'RedHatText-BoldItalic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[10]', 'RedHatText-Italic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[11]', 'RedHatText-Medium.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[12]', 'RedHatText-MediumItalic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/065[0m with ((u'font[13]', 'RedHatText-Regular.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;33;40mWARN[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'three_slash', u'one_slash'] [code: lacks-kern-info]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[0]', 'RedHatDisplay-Black.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[1]', 'RedHatDisplay-BlackItalic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[2]', 'RedHatDisplay-Bold.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[3]', 'RedHatDisplay-BoldItalic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[4]', 'RedHatDisplay-Italic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[5]', 'RedHatDisplay-Medium.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[7]', 'RedHatDisplay-Regular.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[8]', 'RedHatText-Bold.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[9]', 'RedHatText-BoldItalic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[10]', 'RedHatText-Italic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[11]', 'RedHatText-Medium.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[12]', 'RedHatText-MediumItalic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/064[0m with ((u'font[13]', 'RedHatText-Regular.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/075[0m with ((u'font[1]', 'RedHatDisplay-BlackItalic.ttf'),)
+   [1;35;40mCheck for points out of bounds.[0m
+ * [1;33;40mWARN[0m: The following glyphs have coordinates which are out of bounds:
+[('aring', 548, 417), ('amacron', 548, 417), ('acircumflex', 548, 417), ('Uhungarumlaut', 47, 261), ('umacron', 24, 166), ('a', 548, 417), ('eng', 575, 363), ('uring', 24, 166), ('uacute', 24, 166), ('agrave', 548, 417), ('ucircumflex', 24, 166), ('Ubreve', 47, 261), ('Ucircumflex', 47, 261), ('abreve', 548, 417), ('Uacute', 47, 261), ('adieresis', 548, 417), ('m', 882, 362), ('Uogonek', 47, 263), ('hcircumflex', 575, 363), ('h', 575, 363), ('udieresis', 24, 166), ('ordfeminine', 474, 618), ('atilde', 548, 417), ('Ugrave', 47, 261), ('hbar', 575, 363), ('uhungarumlaut', 24, 166), ('n', 575, 363), ('ugrave', 24, 166), ('Udieresis', 47, 261), ('Utilde', 47, 261), ('aogonek', 548, 417), ('Umacron', 47, 261), ('utilde', 24, 166), ('Uring', 47, 261), ('uni0146', 575, 363), ('uogonek', 24, 166), ('ubreve', 24, 166), ('aacute', 548, 417), ('U', 47, 261), ('u', 24, 166)]
+This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/075[0m with ((u'font[3]', 'RedHatDisplay-BoldItalic.ttf'),)
+   [1;35;40mCheck for points out of bounds.[0m
+ * [1;33;40mWARN[0m: The following glyphs have coordinates which are out of bounds:
+[('aring', 529, 414), ('amacron', 529, 414), ('acircumflex', 529, 414), ('Uhungarumlaut', 50, 253), ('umacron', 28, 163), ('a', 529, 414), ('eng', 554, 359), ('uring', 28, 163), ('uacute', 28, 163), ('agrave', 529, 414), ('ucircumflex', 28, 163), ('Ubreve', 50, 253), ('Ucircumflex', 50, 253), ('abreve', 529, 414), ('Uacute', 50, 253), ('adieresis', 529, 414), ('m', 860, 359), ('Uogonek', 50, 254), ('hcircumflex', 554, 358), ('h', 554, 358), ('udieresis', 28, 163), ('ordfeminine', 462, 621), ('Ugrave', 50, 253), ('hbar', 554, 358), ('uhungarumlaut', 28, 163), ('n', 554, 358), ('ugrave', 28, 163), ('sterling', 420, -42), ('Udieresis', 50, 253), ('Utilde', 50, 253), ('aogonek', 529, 414), ('Umacron', 50, 253), ('utilde', 28, 163), ('Uring', 50, 253), ('uni0146', 554, 358), ('uogonek', 28, 163), ('ubreve', 28, 163), ('aacute', 529, 414), ('U', 50, 253), ('u', 28, 163)]
+This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/075[0m with ((u'font[4]', 'RedHatDisplay-Italic.ttf'),)
+   [1;35;40mCheck for points out of bounds.[0m
+ * [1;33;40mWARN[0m: The following glyphs have coordinates which are out of bounds:
+[('aring', 483, 407), ('amacron', 483, 407), ('acircumflex', 483, 407), ('Uhungarumlaut', 58, 234), ('umacron', 38, 155), ('a', 483, 407), ('eng', 510, 393), ('uring', 38, 155), ('uacute', 38, 155), ('agrave', 483, 407), ('ucircumflex', 38, 155), ('Ubreve', 58, 234), ('Ucircumflex', 58, 234), ('abreve', 483, 407), ('Uacute', 58, 234), ('adieresis', 483, 407), ('m', 813, 396), ('Uogonek', 58, 234), ('hcircumflex', 509, 392), ('h', 509, 392), ('udieresis', 38, 155), ('ordfeminine', 431, 630), ('Ugrave', 58, 234), ('hbar', 509, 392), ('uhungarumlaut', 38, 155), ('n', 509, 392), ('ugrave', 38, 155), ('sterling', 407, -38), ('ncaron', 509, 392), ('Udieresis', 58, 234), ('Utilde', 58, 234), ('aogonek', 483, 407), ('Umacron', 58, 234), ('utilde', 38, 155), ('Uring', 58, 234), ('uni0146', 509, 392), ('uogonek', 38, 155), ('nacute', 509, 392), ('ubreve', 38, 155), ('aacute', 483, 407), ('U', 58, 234), ('u', 38, 155)]
+This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/075[0m with ((u'font[6]', 'RedHatDisplay-MediumItalic.ttf'),)
+   [1;35;40mCheck for points out of bounds.[0m
+ * [1;33;40mWARN[0m: The following glyphs have coordinates which are out of bounds:
+[('aring', 502, 410), ('amacron', 502, 410), ('acircumflex', 502, 410), ('Uhungarumlaut', 55, 242), ('umacron', 34, 158), ('a', 502, 410), ('eng', 522, 353), ('uring', 34, 158), ('uacute', 34, 158), ('agrave', 502, 410), ('ucircumflex', 34, 158), ('Ubreve', 55, 242), ('Ucircumflex', 55, 242), ('abreve', 502, 410), ('Uacute', 55, 242), ('adieresis', 502, 410), ('m', 827, 355), ('Uogonek', 55, 242), ('hcircumflex', 522, 352), ('h', 522, 352), ('udieresis', 34, 158), ('ordfeminine', 444, 627), ('Ugrave', 55, 242), ('hbar', 522, 352), ('uhungarumlaut', 34, 158), ('n', 522, 352), ('ugrave', 34, 158), ('sterling', 413, -40), ('Udieresis', 55, 242), ('Utilde', 55, 242), ('aogonek', 502, 410), ('Umacron', 55, 242), ('utilde', 34, 158), ('Uring', 55, 242), ('uni0146', 522, 352), ('uogonek', 34, 158), ('ubreve', 34, 158), ('aacute', 502, 410), ('U', 55, 242), ('u', 34, 158)]
+This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/075[0m with ((u'font[8]', 'RedHatText-Bold.ttf'),)
+   [1;35;40mCheck for points out of bounds.[0m
+ * [1;33;40mWARN[0m: The following glyphs have coordinates which are out of bounds:
+[('scaron', 481, 225), ('uni015F', 481, 225), ('uni015F', 481, 98), ('s', 481, 225), ('sterling', 479, -44), ('scircumflex', 481, 225), ('uni0219', 481, 225)]
+This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/075[0m with ((u'font[9]', 'RedHatText-BoldItalic.ttf'),)
+   [1;35;40mCheck for points out of bounds.[0m
+ * [1;33;40mWARN[0m: The following glyphs have coordinates which are out of bounds:
+[('aring', 543, 405), ('amacron', 543, 405), ('acircumflex', 543, 405), ('Uhungarumlaut', 63, 260), ('umacron', 25, 99), ('a', 543, 405), ('eng', 580, 418), ('uring', 25, 99), ('uacute', 25, 99), ('agrave', 543, 405), ('ucircumflex', 25, 99), ('Ubreve', 63, 260), ('Ucircumflex', 63, 260), ('abreve', 543, 405), ('Uacute', 63, 260), ('adieresis', 543, 405), ('m', 868, 414), ('Uogonek', 63, 263), ('hcircumflex', 581, 417), ('h', 582, 419), ('udieresis', 25, 99), ('ordfeminine', 474, 618), ('Ugrave', 63, 260), ('hbar', 592, 419), ('uhungarumlaut', 25, 99), ('n', 582, 419), ('ugrave', 25, 99), ('sterling', 417, -47), ('Udieresis', 63, 260), ('Utilde', 63, 260), ('aogonek', 543, 405), ('Umacron', 63, 260), ('utilde', 25, 99), ('Uring', 63, 260), ('uni0146', 582, 419), ('uogonek', 25, 99), ('ubreve', 25, 99), ('U', 63, 260), ('u', 25, 99)]
+This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/075[0m with ((u'font[10]', 'RedHatText-Italic.ttf'),)
+   [1;35;40mCheck for points out of bounds.[0m
+ * [1;33;40mWARN[0m: The following glyphs have coordinates which are out of bounds:
+[('aring', 481, 393), ('amacron', 481, 393), ('acircumflex', 481, 393), ('Uhungarumlaut', 70, 234), ('umacron', 39, 105), ('a', 481, 393), ('eng', 502, 386), ('uring', 39, 105), ('uacute', 39, 105), ('agrave', 481, 393), ('ucircumflex', 39, 105), ('Ubreve', 70, 234), ('Ucircumflex', 70, 234), ('Uacute', 70, 234), ('adieresis', 481, 393), ('m', 787, 387), ('Uogonek', 70, 235), ('hcircumflex', 501, 384), ('h', 501, 384), ('udieresis', 39, 105), ('ordfeminine', 431, 630), ('braceleft', 311, 710), ('Ugrave', 70, 234), ('hbar', 507, 384), ('uhungarumlaut', 39, 105), ('n', 501, 384), ('braceright', 71, -224), ('ugrave', 39, 105), ('sterling', 406, -38), ('Udieresis', 70, 234), ('Utilde', 70, 234), ('aogonek', 481, 393), ('Umacron', 70, 234), ('utilde', 39, 105), ('Uring', 70, 234), ('uni0146', 501, 384), ('uogonek', 39, 105), ('ubreve', 39, 105), ('U', 70, 234), ('u', 39, 105)]
+This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/check/075[0m with ((u'font[12]', 'RedHatText-MediumItalic.ttf'),)
+   [1;35;40mCheck for points out of bounds.[0m
+ * [1;33;40mWARN[0m: The following glyphs have coordinates which are out of bounds:
+[('aring', 509, 398), ('amacron', 509, 398), ('acircumflex', 509, 398), ('Uhungarumlaut', 67, 246), ('umacron', 33, 102), ('a', 509, 398), ('eng', 537, 400), ('uring', 33, 102), ('uacute', 33, 102), ('agrave', 509, 398), ('ucircumflex', 33, 102), ('Ubreve', 67, 246), ('Ucircumflex', 67, 246), ('abreve', 509, 398), ('Uacute', 67, 246), ('adieresis', 509, 398), ('m', 824, 399), ('Uogonek', 67, 247), ('hcircumflex', 537, 399), ('h', 537, 400), ('udieresis', 33, 102), ('ordfeminine', 451, 624), ('braceleft', 203, -224), ('braceleft', 318, 709), ('Ugrave', 67, 246), ('hbar', 545, 400), ('uhungarumlaut', 33, 102), ('n', 538, 400), ('braceright', 204, 711), ('braceright', 89, -222), ('ugrave', 33, 102), ('sterling', 410, -43), ('Udieresis', 67, 246), ('Utilde', 67, 246), ('aogonek', 509, 398), ('Umacron', 67, 246), ('utilde', 33, 102), ('Uring', 67, 246), ('uni0146', 538, 400), ('uogonek', 33, 102), ('ubreve', 33, 102), ('U', 67, 246), ('u', 33, 102)]
+This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
+
+   Result: [1;33;40mWARN[0m
+
+
+Total:
+
+    [1;37;41mERROR[0m: 28
+    [1;31;40mFAIL[0m: 80
+    [1;33;40mWARN[0m: 54
+    [1;34;40mSKIP[0m: 534
+    [1;36;40mINFO[0m: 70
+    [1;32;40mPASS[0m: 783
+
+
+DONE!
+
