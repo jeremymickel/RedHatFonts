@@ -4,7 +4,7 @@ set -e
 # Only use this when necesdsary, are currently not all instances are defined in the VF designspace files.
 # generate static designspace referencing csv and variable designspace file
 # later, this might not be done dynamically
-# python mastering/scripts/generate_static_fonts_designspace.py
+# python mastering/scripts/generate_fonts_designspace.py
 
 ## -------------------------------------------------------------
 ## Static TTF
@@ -18,10 +18,10 @@ echo "Generating Static TTF fonts"
 mkdir -p fonts/static/ttf
 fontmake -m source/Mono/RedHatMono_static.designspace -i -o ttf --no-production-names --output-dir fonts/static/ttf/
 fontmake -m source/Mono/RedHatMonoItalic_static.designspace -i -o ttf --no-production-names --output-dir fonts/static/ttf/
-fontmake -m source/Mono/RedHatText_static.designspace -i -o ttf --no-production-names --output-dir fonts/static/ttf/
-fontmake -m source/Mono/RedHatTextItalic_static.designspace -i -o ttf --no-production-names --output-dir fonts/static/ttf/
-fontmake -m source/Mono/RedHatDisplay_static.designspace -i -o ttf --no-production-names --output-dir fonts/static/ttf/
-fontmake -m source/Mono/RedHatDisplayItalic_static.designspace -i -o ttf --no-production-names --output-dir fonts/static/ttf/
+fontmake -m source/Proportional/RedHatText_static.designspace -i -o ttf --no-production-names --output-dir fonts/static/ttf/
+fontmake -m source/Proportional/RedHatTextItalic_static.designspace -i -o ttf --no-production-names --output-dir fonts/static/ttf/
+fontmake -m source/Proportional/RedHatDisplay_static.designspace -i -o ttf --no-production-names --output-dir fonts/static/ttf/
+fontmake -m source/Proportional/RedHatDisplayItalic_static.designspace -i -o ttf --no-production-names --output-dir fonts/static/ttf/
 
 echo "Post processing TTFs"
 ttfs=$(ls fonts/static/ttf/*.ttf)
@@ -52,10 +52,10 @@ echo "Generating Static OTF fonts"
 mkdir -p fonts/static/otf
 fontmake -m source/Mono/RedHatMono_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
 fontmake -m source/Mono/RedHatMonoItalic_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
-fontmake -m source/Mono/RedHatText_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
-fontmake -m source/Mono/RedHatTextItalic_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
-fontmake -m source/Mono/RedHatDisplay_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
-fontmake -m source/Mono/RedHatDisplayItalic_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
+fontmake -m source/Proportional/RedHatText_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
+fontmake -m source/Proportional/RedHatTextItalic_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
+fontmake -m source/Proportional/RedHatDisplay_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
+fontmake -m source/Proportional/RedHatDisplayItalic_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
 
 echo "Post processing OTFs"
 otfs=$(ls fonts/static/otf/*.otf)

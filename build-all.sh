@@ -9,10 +9,11 @@ then
 else
 	version=$1
 	python mastering/scripts/edit-ufo-info/set-ufo-version.py source/Mono $version --save
+	python mastering/scripts/edit-ufo-info/set-ufo-version.py source/Proportional $version --save
 fi
 
-build-vf.sh $version
+build-scripts/build-vf.sh $version
 
-build-statics.sh 
+build-scripts/build-statics.sh 
 
-make-woff2s.sh
+build-scripts/make-woff2s.sh
