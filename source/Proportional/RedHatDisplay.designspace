@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="900" default="300">
+      <labelname xml:lang="en">Weight</labelname>
+      <map input="300" output="46"/>
+      <map input="400" output="77"/>
+      <map input="500" output="105"/>
+      <map input="700" output="145"/>
+      <map input="900" output="172"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="RedHatDisplay-Regular.ufo" familyname="Red Hat Display" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="77"/>
+      </location>
+    </source>
+    <source filename="RedHatDisplay-Light.ufo" familyname="Red Hat Display" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="46"/>
+      </location>
+    </source>
+    <source filename="RedHatDisplay-Black.ufo" familyname="Red Hat Display" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="172"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="Red Hat Display" stylename="Light" filename="instances/RedHatDisplay-Light.ufo" postscriptfontname="RedHatDisplay-Light">
+      <location>
+        <dimension name="Weight" xvalue="46"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Display" stylename="Regular" filename="instances/RedHatDisplay-Regular.ufo" postscriptfontname="RedHatDisplay-Regular">
+      <location>
+        <dimension name="Weight" xvalue="77"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Display" stylename="Medium" filename="instances/RedHatDisplay-Medium.ufo" postscriptfontname="RedHatDisplay-Medium">
+      <location>
+        <dimension name="Weight" xvalue="105"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Display" stylename="Bold" filename="instances/RedHatDisplay-Bold.ufo" postscriptfontname="RedHatDisplay-Bold">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Display" stylename="Black" filename="instances/RedHatDisplay-Black.ufo" postscriptfontname="RedHatDisplay-Black">
+      <location>
+        <dimension name="Weight" xvalue="172"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>com.letterror.mathModelPref</key>
+      <string>previewVarLib</string>
+    </dict>
+  </lib>
+</designspace>

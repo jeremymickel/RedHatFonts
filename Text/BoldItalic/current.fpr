@@ -1,9 +1,0 @@
-InputFontPath	./RedHatText-BoldItalic_source.ttf
-ReleaseMode	true
-FeaturePath	./features
-FontMenuDBPath	../../FontMenuNameDB
-GlyphAliasDBPath	../../GlyphOrderAndAliasDB
-IsBoldStyle	true
-IsItalicStyle	true
-OutputFontPath	./RedHatText-BoldItalic.ttf
-kSetfsSelectionBitsOn	[8, 9]

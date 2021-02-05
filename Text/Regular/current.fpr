@@ -1,7 +1,0 @@
-InputFontPath	./RedHatText-Regular_source.ttf
-ReleaseMode	true
-FeaturePath	./features
-FontMenuDBPath	../../FontMenuNameDB
-GlyphAliasDBPath	../../GlyphOrderAndAliasDB
-OutputFontPath	./RedHatText-Regular.ttf
-kSetfsSelectionBitsOn	[8]

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="700" default="300">
+      <labelname xml:lang="en">Weight</labelname>
+      <map input="300" output="52"/>
+      <map input="400" output="77"/>
+      <map input="500" output="120"/>
+      <map input="700" output="172"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="RedHatMono-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="77"/>
+      </location>
+    </source>
+    <source filename="RedHatMono-Light.ufo">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="52"/>
+      </location>
+    </source>
+    <source filename="RedHatMono-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="172"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="Red Hat Mono" stylename="Medium" filename="instances/RedHatMono-Medium.ufo" postscriptfontname="RedHatMono-Medium">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Mono" stylename="Bold" filename="instances/RedHatMono-Bold.ufo" postscriptfontname="RedHatMono-Bold">
+      <location>
+        <dimension name="Weight" xvalue="172"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Mono" stylename="Regular" filename="instances/RedHatMono-Regular.ufo" postscriptfontname="RedHatMono-Regular">
+      <location>
+        <dimension name="Weight" xvalue="77"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Mono" stylename="Light" filename="instances/RedHatMono-Light.ufo" postscriptfontname="RedHatMono-Light">
+      <location>
+        <dimension name="Weight" xvalue="52"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>
