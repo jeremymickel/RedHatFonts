@@ -11,7 +11,7 @@ AXES = [
         values=[
             dict(nominalValue=300, rangeMinValue=200, rangeMaxValue=350, name="Light"),
             dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=400, name="Regular", flags=0x2, linkedValue=700),
-            dict(nominalValue=500, rangeMinValue=450, rangeMaxValue=650, name="SemiBold"),
+            dict(nominalValue=500, rangeMinValue=450, rangeMaxValue=650, name="Medium"),
             dict(nominalValue=700, rangeMinValue=650, rangeMaxValue=850, name="Bold"),
             dict(nominalValue=900, rangeMinValue=850, rangeMaxValue=950, name="Black"),
             # dict(value=400, name="Regular", flags=0x2, linkedValue=700),  # Regular

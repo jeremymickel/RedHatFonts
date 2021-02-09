@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uogonek" format="2">
   <advance width="541"/>
+  <unicode hex="0173"/>
   <outline>
     <contour>
       <point x="326" y="-232" type="curve" smooth="yes"/>

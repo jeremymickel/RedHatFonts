@@ -1,14 +1,14 @@
 #!/bin/sh
 set -e
 
-if [ -z "$1" ]
-then
-	echo "No version number supplied. If you wish to update the version number in UFOs & built fonts, add one as a build argument:"
-	echo "sources/build-vf.sh 1.000"
-else
-	version=$1
-	python mastering/scripts/edit-ufo-info/set-ufo-version.py sources/Mono $version --save
-fi
+# if [ -z "$1" ]
+# then
+# 	echo "No version number supplied. If you wish to update the version number in UFOs & built fonts, add one as a build argument:"
+# 	echo "sources/build-vf.sh 1.000"
+# else
+# 	version=$1
+# 	python mastering/scripts/edit-ufo-info/set-ufo-version.py sources/Mono $version --save
+# fi
 
 ## ------------------------------------------------------------------
 ## Variable Fonts Build - Static build is at sources/build-statics.sh
