@@ -43,9 +43,7 @@
     <key>openTypeOS2SuperscriptYSize</key>
     <integer>600</integer>
     <key>openTypeOS2Type</key>
-    <array>
-      <integer>3</integer>
-    </array>
+    <array/>
     <key>openTypeOS2TypoAscender</key>
     <integer>1018</integer>
     <key>openTypeOS2TypoDescender</key>
@@ -107,9 +105,9 @@
       <integer>107</integer>
     </array>
     <key>postscriptUnderlinePosition</key>
-    <integer>-100</integer>
+    <integer>-200</integer>
     <key>postscriptUnderlineThickness</key>
-    <integer>50</integer>
+    <integer>100</integer>
     <key>styleName</key>
     <string>Medium</string>
     <key>unitsPerEm</key>

@@ -59,6 +59,8 @@
     <integer>350</integer>
     <key>openTypeOS2SuperscriptYSize</key>
     <integer>600</integer>
+    <key>openTypeOS2Type</key>
+    <array/>
     <key>openTypeOS2TypoAscender</key>
     <integer>1018</integer>
     <key>openTypeOS2TypoDescender</key>
@@ -102,10 +104,6 @@
       <integer>-219</integer>
       <integer>-209</integer>
     </array>
-    <key>postscriptFontName</key>
-    <string>RedHatMono-Bold</string>
-    <key>postscriptFullName</key>
-    <string>RedHatMonoBold</string>
     <key>postscriptIsFixedPitch</key>
     <true/>
     <key>postscriptOtherBlues</key>

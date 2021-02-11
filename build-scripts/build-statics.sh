@@ -29,13 +29,12 @@ for ttf in $ttfs
 do
     gftools fix-dsig -f $ttf;
     if [ -f "$ttf.fix" ]; then mv "$ttf.fix" $ttf; fi
-    # TODO? set up ttfautohint
-    # ttfautohint $ttf "$ttf.fix";
-    # if [ -f "$ttf.fix" ]; then mv "$ttf.fix" $ttf; fi
-    # gftools fix-hinting $ttf;
-    # if [ -f "$ttf.fix" ]; then mv "$ttf.fix" $ttf; fi
-    gftools fix-nonhinting $ttf $ttf.fix
-    mv  $ttf.fix $ttf                                    # TODO: add back hinting?
+    ttfautohint $ttf "$ttf.fix";
+    if [ -f "$ttf.fix" ]; then mv "$ttf.fix" $ttf; fi
+    gftools fix-hinting $ttf;
+    if [ -f "$ttf.fix" ]; then mv "$ttf.fix" $ttf; fi
+    # gftools fix-nonhinting $ttf $ttf.fix
+    # mv  $ttf.fix $ttf                                    
     python mastering/scripts/fixNameTable.py $ttf
 done
 

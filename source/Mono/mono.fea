@@ -17,16 +17,16 @@ table name {
     nameid 8 1 "Pentagram, MCKL";
     nameid 9 "Pentagram, MCKL";
     nameid 9 1 "Pentagram, MCKL";
-    nameid 10 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-    nameid 10 1 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-    nameid 11 "http://www.mckltype.com";
-    nameid 11 1 "http://www.mckltype.com";
-    nameid 12 "http://pentagram.com/";
-    nameid 12 1 "http://pentagram.com/";
-	nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-	nameid 13 1 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-    nameid 14 "http://scripts.sil.org/OFL";
-    nameid 14 1 "http://scripts.sil.org/OFL";
+    nameid 10 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+    nameid 10 1 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+    nameid 11 "https://www.mckltype.com";
+    nameid 11 1 "https://www.mckltype.com";
+    nameid 12 "https://pentagram.com/";
+    nameid 12 1 "https://pentagram.com/";
+	nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+	nameid 13 1 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+    nameid 14 "https://scripts.sil.org/OFL";
+    nameid 14 1 "https://scripts.sil.org/OFL";
 } name;
 
 languagesystem DFLT dflt;

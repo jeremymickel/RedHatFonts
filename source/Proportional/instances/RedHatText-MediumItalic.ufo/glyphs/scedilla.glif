@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scedilla" format="2">
   <advance width="471"/>
+  <unicode hex="015F"/>
   <outline>
     <contour>
       <point x="163" y="-245" type="curve" smooth="yes"/>
