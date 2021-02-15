@@ -14,20 +14,25 @@ set -e
 ## Variable Fonts Build - Static build is at sources/build-statics.sh
 
 echo "Generating VFs"
-mkdir -p fonts
-fontmake -m source/Mono/RedHatMono.designspace -o variable --no-production-names --output-path fonts/RedHatMono[wght].ttf
-fontmake -m source/Mono/RedHatMonoItalic.designspace -o variable --no-production-names --output-path fonts/RedHatMono-Italic[wght].ttf
-fontmake -m source/Proportional/RedHatText.designspace -o variable --no-production-names --output-path fonts/RedHatText[wght].ttf
-fontmake -m source/Proportional/RedHatTextItalic.designspace -o variable --no-production-names --output-path fonts/RedHatText-Italic[wght].ttf
-fontmake -m source/Proportional/RedHatDisplay.designspace -o variable --no-production-names --output-path fonts/RedHatDisplay[wght].ttf
-fontmake -m source/Proportional/RedHatDisplayItalic.designspace -o variable --no-production-names --output-path fonts/RedHatDisplay-Italic[wght].ttf
+mkdir -p fonts/mono/
+mkdir -p fonts/proportional/
+
+fontmake -m source/Mono/RedHatMono.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMono[wght].ttf
+fontmake -m source/Mono/RedHatMonoItalic.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMono-Italic[wght].ttf
+#split the mono out and put it in fonts/mono/
+
+#split the proportional out and put them in fonts/proportional
+fontmake -m source/Proportional/RedHatText.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatText[wght].ttf
+fontmake -m source/Proportional/RedHatTextItalic.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatText-Italic[wght].ttf
+fontmake -m source/Proportional/RedHatDisplay.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplay[wght].ttf
+fontmake -m source/Proportional/RedHatDisplayItalic.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplay-Italic[wght].ttf
 
 
 
-vfs=$(ls fonts/*.ttf)
-echo vfs
+mvfs=$(ls fonts/mono/*.ttf)
+echo mvfs
 echo "Post processing VFs"
-for vf in $vfs
+for vf in $mvfs
 do
 	gftools fix-dsig -f $vf;
 	#python mastering/scripts/fix_naming.py $vf;
@@ -35,7 +40,22 @@ do
 	#mv "$vf.fix" $vf;
 done
 
-echo "Fixing Hinting"
+vfs=$(ls fonts/proportional/*.ttf)
+echo vfs
+echo "Post processing VFs"
+for vf in $vfs
+do
+	gftools fix-dsig -f $vf;
+done
+
+echo "Fixing mono non Hinting"
+for vf in $mvfs
+do
+	gftools fix-nonhinting $vf "$vf.fix";
+	if [ -f "$vf.fix" ]; then mv "$vf.fix" $vf; fi
+done
+
+echo "Fixing proportional non Hinting"
 for vf in $vfs
 do
 	gftools fix-nonhinting $vf "$vf.fix";
@@ -43,14 +63,42 @@ do
 done
 
 echo "Add STAT table"
-python mastering/scripts/add_STAT-improved.py "fonts/RedHatMono[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/RedHatMono-Italic[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/RedHatText[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/RedHatText-Italic[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/RedHatDisplay[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/RedHatDisplay-Italic[wght].ttf"
+python mastering/scripts/add_STAT-improved.py "fonts/mono/RedHatMono[wght].ttf"
+python mastering/scripts/add_STAT-improved.py "fonts/mono/RedHatMono-Italic[wght].ttf"
+python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatText[wght].ttf"
+python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatText-Italic[wght].ttf"
+python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatDisplay[wght].ttf"
+python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatDisplay-Italic[wght].ttf"
 
-rm -rf fonts/*gasp*
+
+rm -rf fonts/mono/*gasp*
+rm -rf fonts/proportional/*gasp*
+
+echo "Remove unwanted fvar instances"
+for vf in $mvfs
+do
+	python mastering/scripts/removeUnwantedVFInstances.py $vf
+done
+
+echo "Dropping MVAR"
+for vf in $mvfs
+do
+	# mv "$vf.fix" $vf;
+	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
+	rtrip=$(basename -s .ttf $vf)
+	new_file=fonts/mono/$rtrip.ttx;
+	rm $vf;
+	ttx $new_file
+	rm $new_file
+done
+
+echo "Fix name table"
+for vf in $mvfs
+do
+    python mastering/scripts/fixNameTable.py $vf
+done
+
+
 
 echo "Remove unwanted fvar instances"
 for vf in $vfs
@@ -64,7 +112,7 @@ do
 	# mv "$vf.fix" $vf;
 	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
 	rtrip=$(basename -s .ttf $vf)
-	new_file=fonts/$rtrip.ttx;
+	new_file=fonts/proportional/$rtrip.ttx;
 	rm $vf;
 	ttx $new_file
 	rm $new_file
@@ -81,7 +129,6 @@ done
 
 
 rm -rf ./*/instances/
-
 rm -f fonts/*.ttx
 rm -f fonts/static/ttf/*.ttx
 rm -f fonts/*gasp.ttf
