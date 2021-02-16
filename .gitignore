@@ -1,3 +1,4 @@
 .DS_Store
+/fonts/.DS_Store
 venv
 woff2
