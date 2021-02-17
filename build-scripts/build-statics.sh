@@ -150,8 +150,9 @@ do
     gftools fix-dsig -f $otf;
     if [ -f "$otf.fix" ]; then mv "$otf.fix" $otf; fi
     gftools fix-nonhinting $otf $otf.fix
-    mv  $otf.fix $otf                                    # TODO: add back hinting?
+    mv  $otf.fix $otf                                    # TODO: add back hinting? added below. 
     python mastering/scripts/fixNameTable.py $otf
+    psautohint $otf;
 done
 
 rm -f fonts/mono/static/otf/*gasp.otf 
@@ -163,8 +164,9 @@ do
     gftools fix-dsig -f $otf;
     if [ -f "$otf.fix" ]; then mv "$otf.fix" $otf; fi
     gftools fix-nonhinting $otf $otf.fix
-    mv  $otf.fix $otf                                    # TODO: add back hinting?
+    mv  $otf.fix $otf                                    # TODO: add back hinting? Added below. 
     python mastering/scripts/fixNameTable.py $otf
+    psautohint $otf;
 done
 
 rm -f fonts/proportional/static/otf/*gasp.otf 
