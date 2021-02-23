@@ -1,4 +1,4 @@
-# Red Hat Fonts Files
+# Red Hat Typeface Files
 
 ## Designers
 
@@ -12,11 +12,15 @@ Jeremy Mickel runs MCKL, a Los Angeles-based type foundry and design studio publ
 
 Red Hat is an enterprise software company with an open source development model. We use collaboration and knowledge sharing to craft better, more reliable, and more adaptable technologies. How our words look is as important to our brand voice as the words we choose. That’s why we developed a type family that’s all our own.
 
-The Red Hat typeface is a superfamily of Display, Text, and Mono styles, each with a range of weights in roman and italic. The fonts were originally commissioned by Paula Scher / Pentagram and designed by Jeremy Mickel / MCKL for the new Red Hat identity.
+The Red Hat Typeface is a superfamily of Display, Text, and Mono styles, each with a range of weights in roman and italic. The fonts were originally commissioned by Paula Scher / Pentagram and designed by Jeremy Mickel / MCKL for the new Red Hat identity.
 
 Red Hat is a fresh take on the geometric sans genre, taking inspiration from a range of American sans serifs including Tempo and Highway Gothic. The Display styles, made for headlines and big statements, are low contrast and spaced tightly, with a large x-height and open counters. The Text styles have a slightly smaller x-height and narrower width for better legibility, are spaced more generously, and have thinned joins for better performance at small sizes. In 2021 we added Light and Light Italic styles, and a Monospace family. The fonts can be used together seamlessly at a range of sizes.
 
 As part of Red Hat’s commitment to open source software, the fonts are made available for use under the SIL Open Font License.
+
+## Variable Fonts
+
+Variable fonts are available for each of the Red Hat Typeface families. The fonts include the `wght` axis, which allows for interpolation between light and black weights.
 
 ## Building the Fonts
 
