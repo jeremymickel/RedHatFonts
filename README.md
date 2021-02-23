@@ -4,7 +4,7 @@
 
 ### Jeremy Mickel
 
-Jeremy Mickel runs MCKL, a Los Angeles-based type foundry and design studio publishing original fonts and providing design services for clients worldwide. Founded in 2012, MCKL has collaborated with leading design firms, companies, and organizations around the world to provide custom typeface and logo design services. Mickel's work has been recognized by the Type Directors Club and the AIGA, and he has taught at RISD and the Minneapolis College of Art and Design.
+Jeremy Mickel runs [MCKL](https://www.mckltype.com), a Los Angeles-based type foundry and design studio publishing original fonts and providing design services for clients worldwide. Founded in 2012, MCKL has collaborated with leading design firms, companies, and organizations around the world to provide custom typeface and logo design services. Mickel's work has been recognized by the Type Directors Club and the AIGA, and he has taught at RISD and the Minneapolis College of Art and Design.
 
 ## About Red Hat Display and Red Hat Text
 
@@ -12,7 +12,7 @@ Jeremy Mickel runs MCKL, a Los Angeles-based type foundry and design studio publ
 
 Red Hat is an enterprise software company with an open source development model. We use collaboration and knowledge sharing to craft better, more reliable, and more adaptable technologies. How our words look is as important to our brand voice as the words we choose. That’s why we developed a type family that’s all our own.
 
-The Red Hat Typeface is a superfamily of Display, Text, and Mono styles, each with a range of weights in roman and italic. The fonts were originally commissioned by Paula Scher / Pentagram and designed by Jeremy Mickel / MCKL for the new Red Hat identity.
+The Red Hat Typeface is a superfamily of Display, Text, and Mono styles, each with a range of weights in roman and italic. The fonts were originally commissioned by Paula Scher / [Pentagram](https://www.pentagram.com/) and designed by Jeremy Mickel / [MCKL](https://www.mckltype.com) for the new Red Hat identity.
 
 Red Hat is a fresh take on the geometric sans genre, taking inspiration from a range of American sans serifs including Tempo and Highway Gothic. The Display styles, made for headlines and big statements, are low contrast and spaced tightly, with a large x-height and open counters. The Text styles have a slightly smaller x-height and narrower width for better legibility, are spaced more generously, and have thinned joins for better performance at small sizes. In 2021 we added Light and Light Italic styles, and a Monospace family. The fonts can be used together seamlessly at a range of sizes.
 
