@@ -9,10 +9,10 @@ table BASE {
 } BASE;
 
 table name {
-    nameid 0 "Copyright 2020 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)";
-    nameid 0 1 "Copyright 2020 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)";
-    nameid 7 "Copyright 2020 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)";
-    nameid 7 1 "Copyright 2020 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)";
+    nameid 0 "Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)";
+    nameid 0 1 "Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)";
+    nameid 7 "Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)";
+    nameid 7 1 "Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)";
     nameid 8 "Pentagram, MCKL";
     nameid 8 1 "Pentagram, MCKL";
     nameid 9 "Pentagram, MCKL";

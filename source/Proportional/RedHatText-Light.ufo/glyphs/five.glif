@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="five" format="2">
   <advance width="558"/>
   <unicode hex="0035"/>
   <note>
-    Version created Sun Jan 27 17:40:50 2019
-  </note>
+Version created Sun Jan 27 17:40:50 2019
+</note>
   <guideline x="270" y="554" angle="90.0" identifier="sdwtrT6mbJ"/>
   <outline>
     <component base="five.tab" xOffset="-18"/>

@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="emspace" format="2">
-	<unicode hex="2003"/>
-	<advance width="600"/>
+  <advance width="600"/>
+  <unicode hex="2003"/>
+  <outline>
+  </outline>
 </glyph>

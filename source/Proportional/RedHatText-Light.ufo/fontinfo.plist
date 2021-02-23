@@ -102,6 +102,10 @@
       <integer>-219</integer>
       <integer>-209</integer>
     </array>
+    <key>postscriptFontName</key>
+    <string>RedHatText-Light</string>
+    <key>postscriptFullName</key>
+    <string>RedHatTextLight</string>
     <key>postscriptOtherBlues</key>
     <array>
       <integer>-219</integer>
@@ -122,6 +126,8 @@
     <integer>-200</integer>
     <key>postscriptUnderlineThickness</key>
     <integer>100</integer>
+    <key>styleMapStyleName</key>
+    <string>regular</string>
     <key>styleName</key>
     <string>Light</string>
     <key>unitsPerEm</key>

@@ -106,6 +106,10 @@
       <integer>-219</integer>
       <integer>-209</integer>
     </array>
+    <key>postscriptFontName</key>
+    <string>RedHatText-MediumItalic</string>
+    <key>postscriptFullName</key>
+    <string>RedHatTextMediumItalic</string>
     <key>postscriptOtherBlues</key>
     <array>
       <integer>-219</integer>
@@ -126,6 +130,8 @@
     <integer>-200</integer>
     <key>postscriptUnderlineThickness</key>
     <integer>100</integer>
+    <key>styleMapStyleName</key>
+    <string>italic</string>
     <key>styleName</key>
     <string>Medium Italic</string>
     <key>unitsPerEm</key>
