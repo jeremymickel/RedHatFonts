@@ -17,15 +17,15 @@ echo "Generating VFs"
 mkdir -p fonts/mono/
 mkdir -p fonts/proportional/
 
-fontmake -m source/Mono/RedHatMono.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMono[wght].ttf
-fontmake -m source/Mono/RedHatMonoItalic.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMono-Italic[wght].ttf
+fontmake -m source/Mono/VF/RedHatMonoVF.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMonoVF[wght].ttf
+fontmake -m source/Mono/VF/RedHatMonoVFItalic.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMonoVF-Italic[wght].ttf
 #split the mono out and put it in fonts/mono/
 
 #split the proportional out and put them in fonts/proportional
-fontmake -m source/Proportional/RedHatText.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatText[wght].ttf
-fontmake -m source/Proportional/RedHatTextItalic.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatText-Italic[wght].ttf
-fontmake -m source/Proportional/RedHatDisplay.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplay[wght].ttf
-fontmake -m source/Proportional/RedHatDisplayItalic.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplay-Italic[wght].ttf
+fontmake -m source/Proportional/VF/RedHatTextVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatTextVF[wght].ttf
+fontmake -m source/Proportional/VF/RedHatTextItalicVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatTextVF-Italic[wght].ttf
+fontmake -m source/Proportional/VF/RedHatDisplayVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplayVF[wght].ttf
+fontmake -m source/Proportional/VF/RedHatDisplayItalicVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplayVF-Italic[wght].ttf
 
 
 
@@ -63,12 +63,12 @@ do
 done
 
 echo "Add STAT table"
-python mastering/scripts/add_STAT-improved.py "fonts/mono/RedHatMono[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/mono/RedHatMono-Italic[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatText[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatText-Italic[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatDisplay[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatDisplay-Italic[wght].ttf"
+python mastering/scripts/add_STAT-improved.py "fonts/mono/RedHatMonoVF[wght].ttf"
+python mastering/scripts/add_STAT-improved.py "fonts/mono/RedHatMonoVF-Italic[wght].ttf"
+python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatTextVF[wght].ttf"
+python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatTextVF-Italic[wght].ttf"
+python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatDisplayVF[wght].ttf"
+python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatDisplayVF-Italic[wght].ttf"
 
 
 rm -rf fonts/mono/*gasp*

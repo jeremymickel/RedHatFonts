@@ -25,6 +25,14 @@
       <point x="183" y="727" type="line"/>
       <point x="70" y="727" type="line"/>
     </contour>
-    <component base="circumflex" xOffset="-157" yOffset="210"/>
+    <contour>
+      <point x="-44" y="798" type="line"/>
+      <point x="44" y="798" type="line"/>
+      <point x="132" y="882" type="line"/>
+      <point x="220" y="798" type="line"/>
+      <point x="310" y="798" type="line"/>
+      <point x="190" y="936" type="line"/>
+      <point x="76" y="936" type="line"/>
+    </contour>
   </outline>
 </glyph>
