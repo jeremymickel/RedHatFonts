@@ -63,12 +63,12 @@ do
 done
 
 echo "Add STAT table"
-python mastering/scripts/add_STAT-improved.py "fonts/mono/RedHatMonoVF[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/mono/RedHatMonoVF-Italic[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatTextVF[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatTextVF-Italic[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatDisplayVF[wght].ttf"
-python mastering/scripts/add_STAT-improved.py "fonts/proportional/RedHatDisplayVF-Italic[wght].ttf"
+# Using a copy of the gen_stat.py script from texturina, to try and sort this once and for all.
+python mastering/gen_stat_mono.py
+python mastering/gen_stat_text.py
+python mastering/gen_stat_disp.py
+
+echo "stat add complete"
 
 
 rm -rf fonts/mono/*gasp*
