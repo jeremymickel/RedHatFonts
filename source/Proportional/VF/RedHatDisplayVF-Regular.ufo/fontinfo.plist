@@ -75,6 +75,12 @@
     <integer>1018</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>305</integer>
+    <key>openTypeVheaVertTypoAscender</key>
+    <integer>1018</integer>
+    <key>openTypeVheaVertTypoDescender</key>
+    <integer>305</integer>
+    <key>openTypeVheaVertTypoLineGap</key>
+    <integer>0</integer>
     <key>postscriptBlueValues</key>
     <array>
       <integer>-11</integer>
