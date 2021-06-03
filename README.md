@@ -22,6 +22,8 @@ As part of Red Hat’s commitment to open source software, the fonts are made av
 
 Variable fonts are available for each of the Red Hat Typeface families. The fonts include the `wght` axis, which allows for interpolation between light and black weights.
 
+There are two versions of the variable fonts: with and without VF in the name. It is Red Hat's preference to name these differently than the OTF / TTF fonts, but Google requires the names to be the same. We recommend using ***either*** the VF or standard named variable fonts, but not both.
+
 ## Building the Fonts
 
 From terminal, run the build script at `sources/build-all.sh`. Fonts output to `fonts/`.
