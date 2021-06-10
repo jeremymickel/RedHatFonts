@@ -32,13 +32,6 @@
     </source>
   </sources>
   <instances>
-    <instance familyname="Red Hat Display" stylename="Black Italic" filename="instances/RedHatDisplay-BlackItalic.ufo" postscriptfontname="RedHatDisplay-BlackItalic">
-      <location>
-        <dimension name="Weight" xvalue="900"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
     <instance familyname="Red Hat Display" stylename="Light Italic" filename="instances/RedHatDisplay-LightItalic.ufo" postscriptfontname="RedHatDisplay-LightItalic">
       <location>
         <dimension name="Weight" xvalue="300"/>
@@ -63,6 +56,13 @@
     <instance familyname="Red Hat Display" stylename="Bold Italic" filename="instances/RedHatDisplay-BoldItalic.ufo" postscriptfontname="RedHatDisplay-BoldItalic">
       <location>
         <dimension name="Weight" xvalue="757.700000"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Display" stylename="Black Italic" filename="instances/RedHatDisplay-BlackItalic.ufo" postscriptfontname="RedHatDisplay-BlackItalic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
       </location>
       <kerning/>
       <info/>
