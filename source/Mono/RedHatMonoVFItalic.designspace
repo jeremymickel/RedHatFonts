@@ -6,6 +6,7 @@
       <map input="300" output="300"/>
       <map input="400" output="400"/>
       <map input="500" output="535.800000"/>
+      <map input="600" output="617.900000"/>
       <map input="700" output="700"/>
     </axis>
   </axes>
@@ -31,23 +32,30 @@
     </source>
   </sources>
   <instances>
-      <instance familyname="Red Hat Mono" stylename="Light Italic" filename="instances/RedHatMono-LightItalic.ufo" postscriptfontname="RedHatMono-LightItalic">
-        <location>
-          <dimension name="Weight" xvalue="300"/>
-        </location>
-        <kerning/>
-        <info/>
-      </instance>
-      <instance familyname="Red Hat Mono" stylename="Italic" filename="instances/RedHatMono-Italic.ufo" postscriptfontname="RedHatMono-Italic">
-        <location>
-          <dimension name="Weight" xvalue="400"/>
-        </location>
-        <kerning/>
-        <info/>
-      </instance>
+    <instance familyname="Red Hat Mono" stylename="Light Italic" filename="instances/RedHatMono-LightItalic.ufo" postscriptfontname="RedHatMono-LightItalic">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Mono" stylename="Italic" filename="instances/RedHatMono-Italic.ufo" postscriptfontname="RedHatMono-Italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
     <instance familyname="Red Hat Mono" stylename="Medium Italic" filename="instances/RedHatMono-MediumItalic.ufo" postscriptfontname="RedHatMono-MediumItalic">
       <location>
         <dimension name="Weight" xvalue="535.800000"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Mono" stylename="SemiBold Italic" filename="instances/RedHatMono-SemiBoldItalic.ufo" postscriptfontname="RedHatMono-SemiBoldItalic">
+      <location>
+        <dimension name="Weight" xvalue="617.900000"/>
       </location>
       <kerning/>
       <info/>
