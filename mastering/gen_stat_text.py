@@ -12,8 +12,8 @@ UPRIGHT_AXES = [
             dict(value=300, name="Light"),
             dict(value=400, name="Regular", flags=0x2, linkedValue=700,),
             dict(value=500, name="Medium"),
+            dict(value=600, name="SemiBold"),
             dict(value=700, name="Bold"),
-            dict(value=900, name="Black"),
         ],
     ),
     dict(
@@ -36,7 +36,7 @@ ITALIC_AXES = [
             dict(value=400, name="Regular", flags=0x2, linkedValue=700,),
             dict(value=500, name="Medium"),
             dict(value=700, name="Bold"),
-            dict(value=900, name="Black"),
+            dict(value=600, name="SemiBold"),
         ],
     ),
     dict(
